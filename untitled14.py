@@ -5,4 +5,4 @@ def limite(x):
         listafracc.append(("\\frac{}/{10^",i,'}'))
         lista_int.append((1/10**i))
     return listafracc,lista_int
-limite(10)
+print(limite(10))
